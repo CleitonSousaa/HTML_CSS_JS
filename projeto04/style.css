@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(47, 79, 79, 0.47);
+}
+main{
+    border: 1px solid grey;
+    padding: 100px;
+}
+.conteiner{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.conteiner input{
+    padding: 5px 10px;
+}
+
+.conteiner select{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    overflow-x: auto;
+    text-align: center;
+    background-color: rgba(77, 32, 0, 0.124);
+}
+.conteiner select:focus, input:focus{
+    outline: none;
+}
+
+.butao:hover{
+    background-color: rgba(77, 32, 0, 0.124);
+    color: rgb(157, 0, 0);
+}
+#txtn{
+    background-color: transparent;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+}
