@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F0F8FF;
+
+}
+::-webkit-scrollbar {
+    width: 0em;
+    background-color: transparent;
+  }
+ 
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+main{
+  overflow: hidden;
+}
+
+
+@media (max-width: 1280px){}
+@media (max-width: 900px){}
+@media (max-width: 450px){}
+@media (max-width: 360px){}
+
+
+
+  
