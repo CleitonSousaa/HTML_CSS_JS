@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./img/teste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+
+header{
+    
+    
+}
+header main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+
+header main div{
+    padding-left: 120px;
+    font-size: 50px;
+}
+header main div article{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+header main ul{
+    display: flex;
+    gap: 25px;
+    padding-right: 120px;
+}
+header main ul li{
+    list-style: none;
+    
+}
+
+header main ul li a{
+    font-family: foliomedium, "Noto Sans", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 48px;
+}
+
+header main ul li a:hover{
+    border-bottom: 5px solid #000;
+
+}
+
+
+
+.sub_header{
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    height: 100px;
+    padding-right: 120px;
+    display: none;
+}
+.sub_header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    display: none;
+}
+.sub_header ul li{
+    list-style: none;
+    color: white;
+    
+}
+.sub_header ul li:hover{
+    border-bottom: 5px solid #e6fa05;
+    
+}
+
+
+
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    
+}
+section main{
+    width: 50%;
+    display: flex;
+}
+section main div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 110px;
+    justify-content: center;
+}
+section main div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section main div ul li{
+    list-style: none;
+    background-color: #e6fa05;
+    width: 80px;
+    height: 2px;
+}
+
+
+section main div ul li:not(:first-child) {
+    list-style: none;
+    background-color: #ffffff;
+    width: 30px;
+    height: 2px;
+}
+section main div ul li:hover{
+    background-color: #e6fa05;
+    width: 40px;
+    transition: 0.1s linear;
+}  
+
+section main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    line-height: 84px;
+    color: #000000;
+    font-weight: 400;
+    width: 50%;
+    color: #ffffff;
+}
+section main h1 strong{
+    color: #e6fa05;
+}
+section div{
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 100px;
+}
+section div article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section div article p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    
+}
+section div article p:hover{
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+}
+section div article i{
+    padding-top: 2px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+footer{
+    height: 140px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+footer div{
+    height: 100%;
+    border: 2px solid #e6fa05;
+    width: 300px;
+    margin-right: 110px;
+    border-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 50px;
+    justify-content: center;
+    color: #e6fa05;
+    font-size: 20px;
+}
+footer div:hover{
+   background-color: #e6fa05;
+   color: #000;
+}
+footer div p{
+    font-family: 'foliomedium','Noto Sans',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    
+    text-transform: uppercase;
+    transition: 300ms ease-in-out;
+}
