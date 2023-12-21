@@ -3,27 +3,28 @@
 - Em Cada Arquivo de Projeto tem uma imagem com nome ´Prod.png´ mostrando a renderização.
 
 
-## Projeto01
+## Projeto01 - Analisador de Números  
 - Analisador de números, consiste em uma página que recebe vários valores e retorna algumas informações como "maior número, menor número, média e soma de todos"
 
-## Projeto02
+## Projeto02 - Contador com Pulo  
 - Contador de números Consiste em uma pagina que exibe números com pulo especifico escolhido pelo usuario
 
-## Projeto03
-- Relogio que modifica os estilos da pagina de acordo com o horario
+## Projeto03 - Relogio Dinâmico  
+- Modifica os estilos da pagina de acordo com o horario
 
-## Projeto04
+## Projeto04 - Gerador de Tabuada  
 - imprime a tabuada basica do valor escolhido pelo usuario
 
-## Projeto05
-- Verifica a idade de acordo com a data e o sexo do usuario.
+## Projeto05 - Verifica a Idade  
+-  Retorna ao usuario dados de acordo data e o sexo do usuario.
 
-## Projeto06
-- Landing page
+## Projeto06 - Landing page  
+- Pagina estatica    
+## Projeto07 - Landing page  
+- Pagina estatica   
 
-## Projeto07
-- Landing page
+## Projeto08 - Templete Portifolio Responsivo
+- Site de Portifólio  
 
-## Projeto08
-- Templete de Portifolio que desenvolvi
+
 
